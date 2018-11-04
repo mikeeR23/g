@@ -1,1 +1,2 @@
-# made a change change 1, change 3
+<<<<<<< HEAD
+# made a change change 1, change 2, change 3
