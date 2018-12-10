@@ -32,3 +32,4 @@ git log --since=2018-05-10 --> returns all the commits since the specified date
 git log --until=2018-12-10 --> returns all the commits until the specified date 
 git log --author="Mike" --> returns all the commits of a specific user 
 git log --grep="css" --> returns all the commits with the specified key words
+git diff --> shows the differences between a file in the repository and the same file that hasn't been commited. 
