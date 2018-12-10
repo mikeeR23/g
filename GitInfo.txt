@@ -1,0 +1,34 @@
+Add users
+============
+git config --global user.name "Mike"
+git config --global user.email "something@yahoo.com"
+
+
+To see the configurations
+=========================
+git config --list
+
+
+To see specific configurations
+==============================
+git config user.name
+git config user.email
+
+
+Adds colored text to terminal
+=====================================
+git config --global color.ui true
+
+
+Initialize repository
+=======================
+Go to folder -> git init -> git clone url
+
+Log of commits
+===================
+git log
+git log -n 2 --> limits the amount of commits that are returned (2 in this case)
+git log --since=2018-05-10 --> returns all the commits since the specified date
+git log --until=2018-12-10 --> returns all the commits until the specified date 
+git log --author="Mike" --> returns all the commits of a specific user 
+git log --grep="css" --> returns all the commits with the specified key words
